@@ -18,7 +18,7 @@ Chapter 1) Introducing PostgreSQL
     * ORDBMS- Object Relational Database Management System
         Database are either relational or Non relational
         | Relational | Non-Relational |
-        |----------|----------|
+        | ---------- | ---------- |
         | Standardized | Non-Standardized | 
         | Vertically Scalable | Horizontally Scalable| 
         | Fixed Schema | Dynamic Schema | 
