@@ -17,13 +17,13 @@ Chapter 1) Introducing PostgreSQL
 
     * ORDBMS- Object Relational Database Management System
         Database are either relational or Non relational
-        | Relational | Non-Relational |
-        | ---------- | ---------- |
-        | Standardized | Non-Standardized | 
-        | Vertically Scalable | Horizontally Scalable| 
-        | Fixed Schema | Dynamic Schema | 
-        | ACID | BASE |
-        | Efficient and reliable to handle complex code | Simple and flixible to handle significant changes but inefficient to handle complex code |
+| Relational | Non-Relational |
+| :---------:| :---------: |
+| Standardized | Non-Standardized | 
+| Vertically Scalable | Horizontally Scalable| 
+| Fixed Schema | Dynamic Schema | 
+| ACID | BASE |
+| Efficient and reliable to handle complex code | Simple and flixible to handle significant changes but inefficient to handle complex code |
     
     Note- Over the time changes have been made and Postgres is horizontally scalable with logical replication and container infrastructure
 
