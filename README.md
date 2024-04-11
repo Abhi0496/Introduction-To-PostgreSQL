@@ -2,7 +2,7 @@
 
 This repo contains my notes/Codes from the LinkedIn learning course- Introduction to PostgreSQL
 
-Chapter 1) Introducing PostgreSQL
+### Chapter 1) Introducing PostgreSQL
     * What is PostgreSQL?
         It's a object-relational, open-source database management system that is performant, reliable, and secure, no matter where you choose to deploy. It's based on relational structure, it has some object-oriented programming features such as classes inheritance and polymorphism. It can also handle NoSQL functionality. JSON and JSON-B data types
     
@@ -33,3 +33,27 @@ Chapter 1) Introducing PostgreSQL
         ** Inherently vertically scalable
         ** Horizonta scalable using logical replication cotainers or other solutions
         ** Designed to support many data types- JSON/JSON B, XML, Key-Value, Geometric
+
+### Chapter 2) Deploying PostgreSQL
+    * We can deploy and run a PostgreSQL database instance inside a container such as Docker, Kubernetes
+
+    * Deployment and Hosting
+      * Where-
+        * On-premise (localserver)
+        * Public or private cloud (AWS, Google clould, Microsoft Azure)
+        * Hybrid cloud 
+        * Multi cloud (Db and application present on many different cloud service provider, this allows you higher availability, better fault tolerance, and more secure setup)
+      * How-
+        * Bare metal- directly on a server operating system
+        * Virtual machines- One or many virtual machines
+          * Oracle: VirtualBox
+          * VMware:Tanzu
+          * HashiCorp:Vagrant
+        * Containers and container orchestration platform- it can also be operated on one or many container as a dedicated or shared application
+          * Docker- Docker Swarm
+          * Google: Kubernetes
+          * Red Hat: OpenShift
+          * SUSE: Rancher
+      * Automation tools like- Jenkins, Terraform, Puppet, Chef and Ansible
+
+    * Note- When getting started with PostgreSQL, before installing it locally or in a cloud development environment, we can try it in the browser thanks to Cruncy Data and Supabase 
